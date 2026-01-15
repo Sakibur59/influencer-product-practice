@@ -124,12 +124,34 @@ header{
 .btn-2{
     margin-top: 50px;
     margin-left: 950px;
+    margin-bottom: 20px;
     background: none;
     border: none;
     color: #E02C6D;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+}
+footer{
+    background-color: rgb(4, 4, 35);   
+}
+.footer-details{
+    padding: 50px;
+    text-align: center;
+}
+.footer-details h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-details p{
+    color: #D9DBE1;
+    margin-bottom: 5px;
+}
+.footer-details img{
+    margin-top: 10px;
+    margin-right: 20px;
 }
 @media screen and (max-width:576px) {
     .navbar,.nav-menu {
@@ -162,8 +184,8 @@ header{
     
    }
    .card-info{
-    margin-left: 50px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
    }
    .card-info img{
     width: 100%;
